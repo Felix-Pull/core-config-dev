@@ -4,7 +4,7 @@
         "labActionMethods": [
             {
                 "methodName": "RECY",
-                "whithWaste": [],
+                "withInputWaste": [],
                 "hasAutoWasteCalc": [],
                 "recordsSolventAddition": [
                     "Yes"
@@ -22,7 +22,7 @@
         "labActionMethods": [
             {
                 "methodName": "Hydrocarbon",
-                "whithWaste": [
+                "withInputWaste": [
                     "Yes",
                     "No"
                 ],
@@ -42,7 +42,7 @@
             },
             {
                 "methodName": "Ethanol",
-                "whithWaste": [
+                "withInputWaste": [
                     "Yes",
                     "No"
                 ],
@@ -63,7 +63,7 @@
             },
             {
                 "methodName": "CO2",
-                "whithWaste": [
+                "withInputWaste": [
                     "Yes",
                     "No"
                 ],
@@ -88,7 +88,7 @@
         "labActionMethods": [
             {
                 "methodName": "CO2",
-                "whithWaste": [
+                "withInputWaste": [
                     "Yes",
                     "No"
                 ],
