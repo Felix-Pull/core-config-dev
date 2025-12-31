@@ -1,7 +1,7 @@
 [
     {
-        "actionName": "Create Recycle Bucket",
-        "methods": [
+        "labActionName": "Create Recycle Bucket",
+        "labActionMethods": [
             {
                 "methodName": "RECY",
                 "whithWaste": [],
@@ -18,8 +18,8 @@
         ]
     },
     {
-        "actionName": "Extract",
-        "methods": [
+        "labActionName": "Extract",
+        "labActionMethods": [
             {
                 "methodName": "Hydrocarbon",
                 "whithWaste": [
@@ -84,8 +84,8 @@
         ]
     },
     {
-        "actionName": "Non-solvent Separation",
-        "methods": [
+        "labActionName": "Non-solvent Separation",
+        "labActionMethods": [
             {
                 "methodName": "CO2",
                 "whithWaste": [
