@@ -1,0 +1,110 @@
+[
+    {
+        "actionName": "Create Recycle Bucket",
+        "methods": [
+            {
+                "methodName": "RECY",
+                "whithWaste": [],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [
+                    "Yes"
+                ],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [],
+                "withOutputWaste": []
+            }
+        ]
+    },
+    {
+        "actionName": "Extract",
+        "methods": [
+            {
+                "methodName": "Hydrocarbon",
+                "whithWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "Ethanol",
+                "whithWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [
+                    "Yes"
+                ],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "whithWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "actionName": "Non-solvent Separation",
+        "methods": [
+            {
+                "methodName": "CO2",
+                "whithWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            }
+        ]
+    }
+]
