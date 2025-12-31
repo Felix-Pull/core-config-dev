@@ -13,6 +13,7 @@
                 "canRunMultipleTimes": [],
                 "exclusiveKey": [],
                 "withRemaining": [],
+                "hasMultipleOutput": [],
                 "withOutputWaste": []
             }
         ]
@@ -20,6 +21,30 @@
     {
         "labActionName": "Extract",
         "labActionMethods": [
+            {
+                "methodName": "Ice Water Hash",
+                "withInputWaste": [],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [],
+                "hasMultipleOutput": [],
+                "withOutputWaste": []
+            },
+            {
+                "methodName": "Rosin Press",
+                "withInputWaste": [],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [],
+                "hasMultipleOutput": [],
+                "withOutputWaste": []
+            },
             {
                 "methodName": "Hydrocarbon",
                 "withInputWaste": [
@@ -35,6 +60,7 @@
                     "Yes",
                     "No"
                 ],
+                "hasMultipleOutput": [],
                 "withOutputWaste": [
                     "Yes",
                     "No"
@@ -57,6 +83,7 @@
                     "Yes",
                     "No"
                 ],
+                "hasMultipleOutput": [],
                 "withOutputWaste": [
                     "No"
                 ]
@@ -76,6 +103,7 @@
                     "Yes",
                     "No"
                 ],
+                "hasMultipleOutput": [],
                 "withOutputWaste": [
                     "Yes",
                     "No"
@@ -101,7 +129,88 @@
                     "Yes",
                     "No"
                 ],
+                "hasMultipleOutput": [],
                 "withOutputWaste": [
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Purge",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Crash",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "THCa harvest",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "Yes"
+                ],
+                "withOutputWaste": [
+                    "Yes",
                     "No"
                 ]
             }
