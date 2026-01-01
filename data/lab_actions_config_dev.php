@@ -30,37 +30,56 @@ return [
                 "methodName" => "Ice Water Hash",
                 "items" => [
                     [
-                        "inputItemTypeName" => "",
-                        "outputItemTypeName" => "",
+                        "inputItemTypeName" => null,
+                        "outputItemTypeName" => null,
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => null,
+                        "outputItemTypeName" => null,
+                        "config" => [
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => null,
+                        "outputItemTypeName" => null,
+                        "config" => [
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ]
                 ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "",
-        "methods" => [
+            ],
             [
                 "methodName" => "Rosin Press",
                 "items" => [
                     [
-                        "inputItemTypeName" => "",
-                        "outputItemTypeName" => "",
+                        "inputItemTypeName" => null,
+                        "outputItemTypeName" => null,
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ]
                 ]
@@ -79,91 +98,103 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ],
+                    [
+                        "inputItemTypeName" => "DryTrim",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "DryWt",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "xDryWt",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "FzWetBud",
+                        "outputItemTypeName" => "crude.LR",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "FzWetTrim",
+                        "outputItemTypeName" => "crude.LR",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "FzDryWt",
+                        "outputItemTypeName" => "crude.LR",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "xFzWetWt",
+                        "outputItemTypeName" => "crude.LR",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ]
                 ]
             ],
             [
-                "methodName" => "",
+                "methodName" => "Ethanol",
                 "items" => [
                     [
-                        "inputItemTypeName" => "DryTrim",
-                        "outputItemTypeName" => "crude",
+                        "inputItemTypeName" => "DryBud",
+                        "outputItemTypeName" => "crude.sol",
                         "config" => [
-                            "hasWaste" => true,
+                            "hasWaste" => null,
                             "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "DryWt",
-                        "outputItemTypeName" => "crude",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "xDryWt",
-                        "outputItemTypeName" => "crude",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "FzWetBud",
-                        "outputItemTypeName" => "crude.LR",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "FzWetTrim",
-                        "outputItemTypeName" => "crude.LR",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "FzDryWt",
-                        "outputItemTypeName" => "crude.LR",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "xFzWetWt",
-                        "outputItemTypeName" => "crude.LR",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
+                            "recordsSolventAddition" => true,
                             "recordsSolventSubstraction" => null,
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
@@ -248,6 +279,23 @@ return [
                             "hasWaste" => null,
                             "hasAutoWasteCalc" => null,
                             "recordsSolventAddition" => true,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "DryBud",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
                             "recordsSolventSubstraction" => null,
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
@@ -432,22 +480,88 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Non Solvent Separation",
+        "methods" => [
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "HTE",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
-                        "inputItemTypeName" => "",
+                        "inputItemTypeName" => "HTE",
                         "outputItemTypeName" => "CDT",
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Purge",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.p",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ],
                     [
                         "inputItemTypeName" => "crude.LR",
                         "outputItemTypeName" => "crude.LR.p",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Crash",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.c",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
@@ -468,17 +582,39 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "THCa Harvest",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude.p",
+                        "outputItemTypeName" => "THCa.Crystals",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
-                        "inputItemTypeName" => "",
+                        "inputItemTypeName" => "crude.p",
                         "outputItemTypeName" => "HTE",
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ],
                     [
@@ -494,15 +630,15 @@ return [
                         ]
                     ],
                     [
-                        "inputItemTypeName" => "",
+                        "inputItemTypeName" => "crude.LR.p",
                         "outputItemTypeName" => "HTE.LR",
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ],
                     [
@@ -518,15 +654,15 @@ return [
                         ]
                     ],
                     [
-                        "inputItemTypeName" => "",
+                        "inputItemTypeName" => "crude.c",
                         "outputItemTypeName" => "HTE",
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ],
                     [
@@ -542,15 +678,37 @@ return [
                         ]
                     ],
                     [
-                        "inputItemTypeName" => "",
+                        "inputItemTypeName" => "crude.LR.c",
                         "outputItemTypeName" => "HTE.LR",
                         "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Add Solvent",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.sol",
+                        "config" => [
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => true,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ],
                     [
@@ -612,6 +770,23 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.sol",
+                        "config" => [
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => true,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
                         "inputItemTypeName" => "crude",
@@ -632,6 +807,28 @@ return [
                             "hasWaste" => null,
                             "hasAutoWasteCalc" => null,
                             "recordsSolventAddition" => true,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Winterization",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude.sol",
+                        "outputItemTypeName" => "HCE.win.sol",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
                             "recordsSolventSubstraction" => null,
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
@@ -684,9 +881,14 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
-                    ],
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "Ethanol",
+                "items" => [
                     [
-                        "inputItemTypeName" => "HCE.win.sol",
+                        "inputItemTypeName" => "crude.sol",
                         "outputItemTypeName" => "HCE.win.sol",
                         "config" => [
                             "hasWaste" => true,
@@ -705,6 +907,74 @@ return [
                             "hasAutoWasteCalc" => null,
                             "recordsSolventAddition" => null,
                             "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude.sol",
+                        "outputItemTypeName" => "HCE.win.sol",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ],
+                    [
+                        "inputItemTypeName" => "HCE.win.sol",
+                        "outputItemTypeName" => "HCE.win.sol",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Reclaim Solvent",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "HCE.win.sol",
+                        "outputItemTypeName" => "HCE.win",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => true,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => true,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "Ethanol",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude.sol",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => true,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => true,
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
@@ -717,6 +987,62 @@ return [
                             "hasAutoWasteCalc" => true,
                             "recordsSolventAddition" => null,
                             "recordsSolventSubstraction" => true,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "HCE.win.sol",
+                        "outputItemTypeName" => "HCE.win",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => true,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => true,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "RECY",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude.sol",
+                        "outputItemTypeName" => "crude",
+                        "config" => [
+                            "hasWaste" => null,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "CRC Filtration",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.crc",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
@@ -936,6 +1262,23 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "Ethanol",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.crc",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
                         "inputItemTypeName" => "HCE.win",
@@ -1036,6 +1379,23 @@ return [
                     [
                         "inputItemTypeName" => "HCE.win.dcb.crc",
                         "outputItemTypeName" => "HCE.win.dcb.crc",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.crc",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
@@ -1156,6 +1516,28 @@ return [
                     [
                         "inputItemTypeName" => "HCE.win.dcb.crc",
                         "outputItemTypeName" => "HCE.win.dcb.crc",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Decarboxylate",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.dcb",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
@@ -1404,6 +1786,23 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "Ethanol",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.dcb",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
                         "inputItemTypeName" => "HCE.win",
@@ -1504,6 +1903,23 @@ return [
                     [
                         "inputItemTypeName" => "HCE.win.dcb.crc",
                         "outputItemTypeName" => "HCE.win.dcb.crc",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "crude.dcb",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
@@ -1624,6 +2040,28 @@ return [
                     [
                         "inputItemTypeName" => "HCE.win.dcb.crc",
                         "outputItemTypeName" => "HCE.win.dcb.crc",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Distillation",
+        "methods" => [
+            [
+                "methodName" => "Hydrocarbon",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "HCE.dist",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
@@ -2052,6 +2490,23 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => "dh5"
                         ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "Ethanol",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "HCE.dist",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
                         "inputItemTypeName" => "HCE.win",
@@ -2315,6 +2770,23 @@ return [
                             "recordsSolventSubstraction" => null,
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => "de5"
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "crude",
+                        "outputItemTypeName" => "HCE.dist",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
                         ]
                     ],
                     [
@@ -2640,6 +3112,28 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => "dc5"
                         ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Chromatography Remediation",
+        "methods" => [
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "THC.dist",
+                        "outputItemTypeName" => "THC.rem",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
                         "inputItemTypeName" => "CBD.dist",
@@ -2692,6 +3186,28 @@ return [
                     [
                         "inputItemTypeName" => "HCE.rem",
                         "outputItemTypeName" => "HCE.rem",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Chromatography Separation",
+        "methods" => [
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "THC.dist",
+                        "outputItemTypeName" => "THC.frac",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
@@ -3276,6 +3792,28 @@ return [
                             "canRunMultipleTimes" => null,
                             "exclusiveKey" => null
                         ]
+                    ]
+                ]
+            ]
+        ]
+    ],
+    [
+        "actionName" => "Chromatography Isolation",
+        "methods" => [
+            [
+                "methodName" => "CO2",
+                "items" => [
+                    [
+                        "inputItemTypeName" => "THC.dist",
+                        "outputItemTypeName" => "THC.isol",
+                        "config" => [
+                            "hasWaste" => true,
+                            "hasAutoWasteCalc" => null,
+                            "recordsSolventAddition" => null,
+                            "recordsSolventSubstraction" => null,
+                            "canRunMultipleTimes" => null,
+                            "exclusiveKey" => null
+                        ]
                     ],
                     [
                         "inputItemTypeName" => "CBD.dist",
@@ -3448,475 +3986,6 @@ return [
                     [
                         "inputItemTypeName" => "THCV.isol",
                         "outputItemTypeName" => "THCV.isol",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ],
-            [
-                "methodName" => "Ethanol",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "DryBud",
-                        "outputItemTypeName" => "crude.sol",
-                        "config" => [
-                            "hasWaste" => null,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => true,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude.sol",
-                        "outputItemTypeName" => "HCE.win.sol",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude.sol",
-                        "outputItemTypeName" => "crude",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => true,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => true,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.crc",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.dcb",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "HCE.dist",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ],
-            [
-                "methodName" => "CO2",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "DryBud",
-                        "outputItemTypeName" => "crude",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.sol",
-                        "config" => [
-                            "hasWaste" => null,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => true,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude.sol",
-                        "outputItemTypeName" => "HCE.win.sol",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "HCE.win.sol",
-                        "outputItemTypeName" => "HCE.win",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => true,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => true,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.crc",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.dcb",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ],
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "HCE.dist",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ],
-            [
-                "methodName" => "RECY",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude.sol",
-                        "outputItemTypeName" => "crude",
-                        "config" => [
-                            "hasWaste" => "",
-                            "hasAutoWasteCalc" => "",
-                            "recordsSolventAddition" => "",
-                            "recordsSolventSubstraction" => "",
-                            "canRunMultipleTimes" => "",
-                            "exclusiveKey" => ""
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Non Solvent Separation",
-        "methods" => [
-            [
-                "methodName" => "CO2",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "HTE",
-                        "outputItemTypeName" => "crude",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Purge",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.p",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Crash",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.c",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "THCa Harvest",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude.p",
-                        "outputItemTypeName" => "THCa.Crystals",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Add Solvent",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.sol",
-                        "config" => [
-                            "hasWaste" => null,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => true,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Winterization",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude.sol",
-                        "outputItemTypeName" => "HCE.win.sol",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Reclaim Solvent",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "HCE.win.sol",
-                        "outputItemTypeName" => "HCE.win",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => true,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => true,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "CRC Filtration",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.crc",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Decarboxylate",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "crude.dcb",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Distillation",
-        "methods" => [
-            [
-                "methodName" => "Hydrocarbon",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "crude",
-                        "outputItemTypeName" => "HCE.dist",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Chromatography Remediation",
-        "methods" => [
-            [
-                "methodName" => "",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "THC.dist",
-                        "outputItemTypeName" => "THC.rem",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Chromatography Separation",
-        "methods" => [
-            [
-                "methodName" => "",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "THC.dist",
-                        "outputItemTypeName" => "THC.frac",
-                        "config" => [
-                            "hasWaste" => true,
-                            "hasAutoWasteCalc" => null,
-                            "recordsSolventAddition" => null,
-                            "recordsSolventSubstraction" => null,
-                            "canRunMultipleTimes" => null,
-                            "exclusiveKey" => null
-                        ]
-                    ]
-                ]
-            ]
-        ]
-    ],
-    [
-        "actionName" => "Chromatography Isolation",
-        "methods" => [
-            [
-                "methodName" => "",
-                "items" => [
-                    [
-                        "inputItemTypeName" => "THC.dist",
-                        "outputItemTypeName" => "THC.isol",
                         "config" => [
                             "hasWaste" => true,
                             "hasAutoWasteCalc" => null,
