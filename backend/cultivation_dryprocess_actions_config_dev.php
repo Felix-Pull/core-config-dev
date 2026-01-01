@@ -2,7 +2,7 @@
 
 return [
     [
-        "actionName" => "Propagate",
+        "actionName" => "Propagate-test",
         "items" => [
             [
                 "inputItemTypeName" => "Seed Packet",
