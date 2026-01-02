@@ -60,7 +60,9 @@
                     "Yes",
                     "No"
                 ],
-                "hasMultipleOutput": [],
+                "hasMultipleOutput": [
+                    "No"
+                ],
                 "withOutputWaste": [
                     "Yes",
                     "No"
@@ -83,7 +85,9 @@
                     "Yes",
                     "No"
                 ],
-                "hasMultipleOutput": [],
+                "hasMultipleOutput": [
+                    "No"
+                ],
                 "withOutputWaste": [
                     "No"
                 ]
@@ -103,7 +107,9 @@
                     "Yes",
                     "No"
                 ],
-                "hasMultipleOutput": [],
+                "hasMultipleOutput": [
+                    "No"
+                ],
                 "withOutputWaste": [
                     "Yes",
                     "No"
@@ -129,8 +135,11 @@
                     "Yes",
                     "No"
                 ],
-                "hasMultipleOutput": [],
+                "hasMultipleOutput": [
+                    "Yes"
+                ],
                 "withOutputWaste": [
+                    "Yes",
                     "No"
                 ]
             }
@@ -154,7 +163,9 @@
                     "Yes",
                     "No"
                 ],
-                "hasMultipleOutput": [],
+                "hasMultipleOutput": [
+                    "No"
+                ],
                 "withOutputWaste": [
                     "Yes",
                     "No"
@@ -180,7 +191,9 @@
                     "Yes",
                     "No"
                 ],
-                "hasMultipleOutput": [],
+                "hasMultipleOutput": [
+                    "No"
+                ],
                 "withOutputWaste": [
                     "Yes",
                     "No"
@@ -208,6 +221,458 @@
                 ],
                 "hasMultipleOutput": [
                     "Yes"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Add Solvent",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Winterization",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            },
+            {
+                "methodName": "Ethanol",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Reclaim Solvent",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [
+                    "Yes"
+                ],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [
+                    "Yes"
+                ],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "Ethanol",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [
+                    "Yes"
+                ],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [
+                    "Yes"
+                ],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [
+                    "Yes"
+                ],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [
+                    "Yes"
+                ],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "RECY",
+                "withInputWaste": [],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [],
+                "hasMultipleOutput": [],
+                "withOutputWaste": []
+            }
+        ]
+    },
+    {
+        "labActionName": "CRC Filtration",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "Ethanol",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Decarboxylate",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "Ethanol",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "labActionName": "Distillation",
+        "labActionMethods": [
+            {
+                "methodName": "Hydrocarbon",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "Ethanol",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
+                ],
+                "withOutputWaste": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "methodName": "CO2",
+                "withInputWaste": [
+                    "Yes",
+                    "No"
+                ],
+                "hasAutoWasteCalc": [],
+                "recordsSolventAddition": [],
+                "recordsSolventSubstraction": [],
+                "canRunMultipleTimes": [],
+                "exclusiveKey": [
+                    "dh1",
+                    "dh2",
+                    "dh3",
+                    "dh4",
+                    "dh5",
+                    "de1",
+                    "de2",
+                    "de3",
+                    "de4",
+                    "de5",
+                    "dc1",
+                    "dc2",
+                    "dc3",
+                    "dc4",
+                    "dc5"
+                ],
+                "withRemaining": [
+                    "Yes",
+                    "No"
+                ],
+                "hasMultipleOutput": [
+                    "No"
                 ],
                 "withOutputWaste": [
                     "Yes",
